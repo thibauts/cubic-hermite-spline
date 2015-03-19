@@ -1,0 +1,15 @@
+{
+  "name": "cubic-hermite-spline",
+  "version": "1.0.0",
+  "description": "Cubic Hermite spline interpolation",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "thibauts",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/thibauts/cubic-hermite-spline.git"
+  }  
+}
