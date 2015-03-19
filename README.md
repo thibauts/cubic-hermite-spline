@@ -80,6 +80,6 @@ Computes the interpolation at `t` for the provided set of points and tangents, a
 
 * `t` position along the curve: in the [0, 1] range for regular use, and [0, last-knot-value] when using knots
 * `points` vectors to interpolate
-* `tangents` at provided points
+* `tangents` tangents at provided points
 * `knots` enforced values of `t` at provided points
-* `derivative` boolean. If true the tangeant at `t` is returned instead of the position
+* `derivative` if true return the tangeant at `t` instead of the position
