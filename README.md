@@ -74,7 +74,7 @@ for(var t=0; t<1; t+=0.01) {
 Usage
 -----
 
-### `hermite(t, points, tangents[, knots, derivative])`
+### `hermite(t, points, tangents[, knots, derivative, result])`
 
 Computes the interpolation at `t` for the provided set of points and tangents, and optional knots.
 
@@ -83,3 +83,6 @@ Computes the interpolation at `t` for the provided set of points and tangents, a
 * `tangents` tangents at provided points
 * `knots` enforced values of `t` at provided points
 * `derivative` if true return the tangeant at `t` instead of the position
+* `result` preallocated array in which the result will be stored (avoid GC)
+
+**Returns** the interpolated vector

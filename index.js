@@ -1,10 +1,10 @@
 
 
-function interpolate(t, points, tangents, knots, derivative) {
+function interpolate(t, points, tangents, knots, derivative, result) {
 
   var n = points.length;    // number or points / tangents / knots
   var d = points[0].length; // vector dimensionality
-  var v = new Array(d);     // destination vector
+  var v = result || new Array(d); // destination vector
 
   if(knots) {
     // find knot interval for t
