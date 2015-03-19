@@ -2,7 +2,7 @@ cubic-hermite-spline
 ====================
 ### Cubic Hermite spline interpolation
 
-Cubic Hermite spline interpolation of points / tangeants in any dimension with optional derivative computation. The interpolator can also take a knot-like vector as an optional parameter, which may be useful to enforce time at control points when used for position / velocity interpolation.
+[Cubic Hermite spline](http://en.wikipedia.org/wiki/Cubic_Hermite_spline) interpolation of points / tangeants in any dimension with optional derivative computation. The interpolator can also take a knot-like vector as an optional parameter, which may be useful to enforce time at control points when used for position / velocity interpolation.
 
 
 Install
