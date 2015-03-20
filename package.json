@@ -1,6 +1,6 @@
 {
   "name": "cubic-hermite-spline",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Cubic Hermite spline interpolation",
   "main": "index.js",
   "scripts": {
@@ -11,5 +11,11 @@
   "repository": {
     "type": "git",
     "url": "git://github.com/thibauts/cubic-hermite-spline.git"
-  }  
+  },
+  "keywords": [
+    "cubic",
+    "hermite",
+    "spline",
+    "interpolation"
+  ]
 }
