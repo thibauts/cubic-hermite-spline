@@ -83,6 +83,6 @@ Computes the interpolation at `t` for the provided set of points and tangents, a
 * `tangents` tangents at provided points
 * `knots` enforced values of `t` at provided points
 * `derivative` if true return the tangeant at `t` instead of the position
-* `result` preallocated array in which the result will be stored (avoid GC)
+* `result` preallocated array in which the result will be stored (to avoid garbage collection)
 
 **Returns** the interpolated vector
