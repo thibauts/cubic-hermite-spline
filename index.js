@@ -22,7 +22,7 @@ function interpolate(t, points, tangents, knots, derivative, result) {
     var k1 = knots[i1];
     var scale = k1 - k0;
 
-    var t = (t - k0) / scale;
+    t = (t - k0) / scale;
 
   } else {
 
